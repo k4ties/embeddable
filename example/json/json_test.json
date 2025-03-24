@@ -1,0 +1,6 @@
+{
+  "config":{
+    "foo": "hello world",
+    "bar": 12
+  }
+}

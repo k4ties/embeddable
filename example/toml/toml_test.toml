@@ -1,0 +1,4 @@
+
+[Config]
+   Foo = "hello world"
+   Bar = 12
