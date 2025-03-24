@@ -8,6 +8,7 @@ It is very helpful for small configs.
 //go:embed filename.json 
 var b []byte
 var conf = embeddable.MustExtract[map[string]any](embeddable.JSON, b)
+// do something with conf
 ``` 
 
-Examples are located in the same folder: ``json_test.go``, ``toml_test.go``, ``yaml_test.go``
+Examples are located in the `example` folder.
